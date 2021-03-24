@@ -15,7 +15,7 @@
 <main>  
     <section>
     <h2>John Doe</h2>
-    <p>john.doe@gmail.com</p>
+    <div>john.doe@gmail.com</div>
     <ul>
         <li>Program: Computer Science</li>
         <li>Matric: 00/0000</li>
@@ -24,13 +24,12 @@
     </section>
     <section>
         <h2>Update Profile</h2>
-    <form>
+    <form name ="updateProfile">
         <div>First Name: <input type="text" name="firstName" /></div><br>
         <div>Last Name: <input type="text" name="lastName" /></div><br>
-        <div>Email address: <input type="email" name="email" /></div><br>
-        <div>Password: <input type="password" name="password" /></div><br>
+        <div>Email Address: <input type="email" name="email" /></div><br>
         <div>Matric Number: <input type="text" name="matricNumber" /></div><br>
-        <div>Program: <select label="Program"></div><br>
+        <div>Program: <select label="program"></div><br>
             <optgroup>program</optgroup>
             <option value="computer_science">Computer Science</option>
             <option value="computer_information_systems">Computer Information Systems</option>
@@ -53,10 +52,12 @@
 
     <section>
         <h2>Change Password</h2>
+    <form name="changePassword">
         <div>Current Password: <input type="password" name="currentPassword" /></div><br>
         <div>New Password: <input type="password" name="newPassword" /></div><br>
         <div>Confirm Password: <input type="password" name="confirmPassword" /></div><br>
         <input type="submit" />
+    </form>
     </section>
 </main>
 
